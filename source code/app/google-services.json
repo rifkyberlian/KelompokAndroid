@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "568118359207",
+    "firebase_url": "https://reginamp-a6aed.firebaseio.com",
+    "project_id": "reginamp-a6aed",
+    "storage_bucket": "reginamp-a6aed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568118359207:android:3b08316978171f0b4fd782",
+        "android_client_info": {
+          "package_name": "com.kelompok.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568118359207-q0urrggf9la1hjsc9edtkil8mugf5rr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ4sC6016NNzaUIewkOE4zXRc5Tx11T_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568118359207-q0urrggf9la1hjsc9edtkil8mugf5rr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kelompok.android"
+    tools:ignore="MissingLeanbackLauncher">
+
+    <uses-feature android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.kelompok.android.utils.MyAppClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8804184340526788~7833821786"/>
+
+        <activity android:name="com.kelompok.android.TermsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar"/>
+        <activity
+            android:name="com.kelompok.android.ReplyActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_reply"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.kelompok.android.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.kelompok.android.PassResetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.kelompok.android.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.kelompok.android.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.kelompok.android.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.kelompok.android.DetailsActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenLayout|screenSize|orientation"
+            android:label="@string/title_activity_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--android:configChanges="screenLayout|screenSize|orientation"-->
+
+        <activity
+            android:name="com.kelompok.android.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.kelompok.android.SettingsActivity"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.kelompok.android.SplashscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelompok.android.ItemMovieActivity"
+            android:label="@string/title_activity_item_show"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.kelompok.android.ItemTVActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+        <activity
+            android:name="com.kelompok.android.ItemSeriesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Nobar" />
+    </application>
+
+</manifest>
